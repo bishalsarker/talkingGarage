@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="talkingGarage.Controllers.BookingController">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEAAAAEAAA=</HashCode>
+      <FileName>Controllers\BookingController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="talkingGarage.Controllers.HomeController">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAABAAAgAAACAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="talkingGarage.Controllers.LogController">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\LogController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="talkingGarage.Controllers.ParkinglotController">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIBAAAAAIAAAABAACAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\ParkinglotController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="talkingGarage.Models.BookingModel">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQiAEAgAAyQgAAQAQAAAIQgAAQEAAAIAAAAACAAAAA=</HashCode>
+      <FileName>Models\BookingModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="talkingGarage.Models.LogModel">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEAggCgAAAAQCAAAAEQAQAYAACAIAAAAAAAABAA=</HashCode>
+      <FileName>Models\LogModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="talkingGarage.Models.ParkinglotModel">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQEAAAAgAAAAQCAAAAAQAiASAAAAIAAAiAAAABAA=</HashCode>
+      <FileName>Models\ParkinglotModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

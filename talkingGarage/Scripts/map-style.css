@@ -1,0 +1,101 @@
+﻿* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html, body {
+height: 100%;
+width: 100%;
+}
+
+
+#map, #infoContainer {
+width: 100%;
+}
+
+#infoContainer {
+height: 100%;
+background-color: #36454f;
+}
+
+#map {
+height: 70%;
+}
+
+.marker {
+background-image: url('marker-editor.svg');
+background-size: cover;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.places {
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+  padding: 0;
+  margin: 0;
+
+
+}
+
+@media screen and (min-width: 480px) {
+#map, #infoContainer {
+    display: inline-block;
+}
+
+#infoContainer {
+    height: 100%;
+    width: 30%;
+    padding: 1em 0 1em 0;
+}
+
+#map {
+    float: right;
+    height: 100%;
+    width: 70%;
+}
+}
+
+@media screen and (max-width: 660px) {
+.map, .sidebar {
+    height: 50%;
+    width: 100%;
+}
+
+.map {
+    top: 0;
+    bottom: 50%;
+    left: 0;
+}
+
+.sidebar {
+    top: 50%;
+    bottom: 100%;
+}
+}

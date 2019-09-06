@@ -1,0 +1,55 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign in | Talking Garage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="Taxi Booking Form Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link rel="stylesheet" href="~/css/style-login.css" type="text/css" media="all">
+    <link rel="stylesheet" href="~/css/jquery-ui.css" type="text/css" media="all">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" type="text/css" media="all">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700" type="text/css" media="all">
+</head>
+<body>
+    <h1>SIGN IN</h1>
+        <div class="containerw3layouts-agileits">
+        <p>@TempData["response"]</p>
+        <div class="w3layoutscontactagileits">
+            @using (Html.BeginForm("Athorize", "Home", FormMethod.Post))
+            {
+                <div class="wthreename agileinfow3ls">
+                    <div class="wthreename-input wthreeinput">
+                        <input class="top" type="text" name="username" placeholder="Name" required>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="wthreename agileinfow3ls">
+                    <div class="wthreename-input wthreeinput">
+                        <input class="top" type="password" name="password" placeholder="Password" required>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="aitssubmitw3ls">
+                    <input type="submit" name="submit" value="SIGN IN">
+                </div>
+            }
+        </div>
+
+    </div>
+
+    <div class="w3lsfooteragileits">
+        <p> &copy; 2018 Talking Garage. All Rights Reserved</p>
+    </div>
+
+    <script type="text/javascript" src="~/js/jquery-2.1.4.min.js"></script>
+    <script src="~/js/jquery-ui.js"></script>
+</body>
+</html>
